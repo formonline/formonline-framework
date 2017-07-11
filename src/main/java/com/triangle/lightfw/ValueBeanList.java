@@ -56,13 +56,13 @@ implements Serializable, List<ValueBean>
      */
     public void sort()
     {
-        this.sort(null);
+        this.valueBeanSort(null);
     }
     
     /**
      * trie la liste par le titre
      */
-    public void sort(Comparator<ValueBean> cvb)
+    public void valueBeanSort(Comparator<ValueBean> cvb)
     {
         java.util.Collections.sort(this, cvb);
     }
