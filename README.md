@@ -13,7 +13,7 @@ java7 / tomcat / mysql
 pom
 ```
 
-- Create a database and execute the SQL script
+- Execute the SQL script to create the database (/sql/formonline_init_db.sql)
 - Modify if necessary the database source in the profile section of the POM.xml
 - Run `mvn tomcat7:run` to build and deploy in a dev server
 
