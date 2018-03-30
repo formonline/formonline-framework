@@ -1,3 +1,0 @@
-msg.login.MSG_BAD_LOGIN=Echec lors de la tentative d'authentification
-msg.login.MSG_BAD_CONF=Probleme de configuration et/ou de base de données
-msg.login.MSG_CONNECTAS_DENIED=Droits insuffisants
